@@ -1,6 +1,4 @@
-//#pragma once
-//#ifndef _FIB_HEAP_H
-//#define _FIB_HEAP_H
+
 #include <iostream>
 #include <cstdio>
 #include <cmath>
@@ -53,7 +51,6 @@ namespace fib_heap {
 		/*Delete a specified node*/
 		void delete_node(FibHeapNode* x);
 
-		// private:
 		static const int m_minimumKey;
 		FibHeapNode* _create_node(int newKey);
 		void _insert_node(FibHeapNode* newNode);
@@ -71,4 +68,3 @@ namespace fib_heap {
 
 
 }
-//#endif
